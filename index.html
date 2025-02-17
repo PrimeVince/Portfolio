@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home" onclick="hideNav()">Home</a></li>
+                <li><a href="#about" onclick="hideNav()">About</a></li>
+                <li><a href="#portfolio" onclick="hideNav()">Portfolio</a></li>
+                <li><a href="#contact" onclick="hideNav()">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <div class="overlay">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hi, I'm Vincent Mathu, an experieced website developer.</p>
+        </div>
+    </section>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="assets/vince.jpg" alt="Your Photo">
+            <div class="about-text">
+                <p>👋 Hi, I'm Vincent Mathu, a passionate web developer dedicated to building modern, responsive, and user-friendly websites. With expertise in HTML, CSS, JavaScript, and front-end frameworks, I specialize in crafting seamless digital experiences that bring ideas to life.</p>
+                <p>Over the years, I’ve worked on projects ranging from portfolio websites that showcase personal brands to dynamic eCommerce platforms designed to enhance online shopping experiences. Whether it's designing intuitive UI/UX or developing efficient back-end solutions, I ensure that every project is optimized for speed, accessibility, and functionality.</p>
+                <p><strong>My Skills:</strong></p>
+                <ul>
+                    <li>Front-end Development: HTML, CSS, JavaScript, React</li>
+                    <li>Back-end Development: Node.js</li>
+                    <li>UI/UX Design: Responsive & Mobile-Friendly Layouts</li>
+                </ul>
+                <p><strong>Notable Projects:</strong></p>
+                <ul>
+                    <li>Portfolio Website</li>
+                    <li>Local Business Directory</li>
+                    <li>E-Commerce Platforms</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section id="portfolio">
+        <h2>My Work</h2>
+        <div class="gallery">
+            <!-- Project 1 -->
+            <div class="portfolio-item">
+                <div class="portfolio-summary">
+                    <img src="assets/lbd1.png" alt="Sample lbd">
+                    <div class="portfolio-info">
+                        <h3>Local business Directory</h3>
+                        <p>An online platform that helps users discover and connect with businesses in their area</p>
+                    </div>
+                </div>
+                <div class="portfolio-details">
+                    <img src="assets/lbd1.png" alt="lbd-1">
+                    <img src="assets/lbd2.png" alt="lbd-2">
+                    <img src="assets/lbd3.png" alt="lbd-3">
+                    <img src="assets/ldb4.png" alt="lbd-4">
+                    <p>is an online platform that helps users discover and connect with businesses in their area. It features a searchable and categorized database of businesses, including details such as name, address, contact information, website links, and customer reviews. Users can filter results by industry, location, or ratings to find relevant services. Businesses can create profiles, add photos, update information, and respond to customer reviews. Additional features may include advertising options, premium listings, interactive maps, and user-generated ratings to enhance visibility and engagement within the local community.</p>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="portfolio-item">
+                <div class="portfolio-summary">
+                    <img src="assets/stylish1.png" alt="Sample Work 2">
+                    <div class="portfolio-info">
+                        <h3>Stylish</h3>
+                        <p>It is an online platform that allows customers to browse, select, and purchase footwear</p>
+                    </div>
+                </div>
+                <div class="portfolio-details">
+                    <img src="assets/stylish1.png" alt="Sample Work 2-1">
+                    <img src="assets/stylish2.png" alt="Sample Work 2-2">
+                    <img src="assets/stylish3.png" alt="Sample Work 2-3">
+                    <img src="assets/stylish4.png" alt="Sample Work 2-4">
+                    <p>This is an online platform that allows customers to browse, select, and purchase footwear from various brands and styles. It includes a visually appealing homepage showcasing featured products, a well-organized catalog with filters for size, color, and price, and detailed product pages with images, descriptions, and reviews. Customers can add items to their cart, proceed through a secure checkout process, and receive order tracking updates. The website may also offer discounts, personalized recommendations, and customer support to enhance the shopping experience.</p>
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="portfolio-item">
+                <div class="portfolio-summary">
+                    <img src="assets/food1.png" alt="Restauraunt">
+                    <div class="portfolio-info">
+                        <h3>Soul Food Restaurant</h3>
+                        <p>A platform that provides essential information about a dining establishment</p>
+                    </div>
+                </div>
+                <div class="portfolio-details">
+                    <img src="assets/food1.png" alt="Restaurant-1">
+                    <img src="assets/food2.png" alt="Restaurant-2">
+                    <img src="assets/food3.png" alt="Restaurant-3">
+                    <img src="assets/food4.png" alt="Restaurant-4">
+                    <p>This is an online platform that provides essential information about a dining establishment while offering features to enhance customer engagement. It includes a visually appealing homepage showcasing the restaurant’s ambiance, signature dishes, and special offers. A menu section displays available food and drink options with descriptions and prices. Customers can make online reservations, place takeout or delivery orders, and find location details with a map and contact information. Additional features may include customer reviews, a gallery of images, social media links, and promotional offers to attract visitors and enhance the dining experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-details">
+            <p><strong>Name:</strong> Vincent Mathu</p>
+            <p><strong>Email:</strong> vincent.mathu7@gmail.com</p>
+            <p><strong>Phone:</strong> 0793908533</p>
+            <p><strong>Location:</strong> Nakuru, Kenya</p>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Vincent Mathu. All rights reserved.</p>
+    </footer>
+    
+    <script src="index.js"></script>
+</body>
+</html>

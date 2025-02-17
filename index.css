@@ -1,0 +1,180 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+    scroll-behavior: smooth;
+    background: url('assets/background.jpeg') no-repeat center center/cover;
+    background-attachment: fixed;
+}
+
+h1, h2, h3 {
+    color: #222;
+}
+
+/* Header & Navigation */
+header {
+    background: #007bff;
+    padding: 15px 0;
+    position: left;
+    text-align: left;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Hero Section */
+#home {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 100px;
+    border-radius: 10px;
+}
+
+/* About Section */
+#about {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 900px;
+    margin: auto;
+    gap: 20px;
+}
+
+.about-content img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.about-text {
+    max-width: 600px;
+    text-align: left;
+}
+
+/* Portfolio Section */
+#portfolio {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.portfolio-item {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+}
+
+.portfolio-summary img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.portfolio-info {
+    padding: 10px 0;
+}
+
+.portfolio-details {
+    padding: 10px;
+    text-align: left;
+}
+
+.portfolio-details img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Contact Section */
+#contact {
+    padding: 80px 20px;
+    background: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+
+.contact-details p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background: #007bff;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font-size: 1em;
+}
+
+.hidden {
+    display: none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
